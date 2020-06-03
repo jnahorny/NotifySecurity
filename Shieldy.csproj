@@ -240,10 +240,10 @@
   </PropertyGroup>
   <!--  <PropertyGroup>
     <ManifestKeyFile>Shieldy_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup> -->
+  </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>89D1BBD9196E9FB2BE955F3FD2D8276A9D184D94</ManifestCertificateThumbprint>
-  </PropertyGroup>
+  </PropertyGroup> -->
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
