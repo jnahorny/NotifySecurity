@@ -226,21 +226,21 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <PropertyGroup>
+  <!--  <PropertyGroup>
     <ManifestKeyFile>Shieldy_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
+  </PropertyGroup> -->
   <PropertyGroup>
     <ManifestCertificateThumbprint>89D1BBD9196E9FB2BE955F3FD2D8276A9D184D94</ManifestCertificateThumbprint>
   </PropertyGroup>
